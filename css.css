@@ -22,6 +22,14 @@
   background: transparent;
 }
 
+/* Reply to general comment */
+.js-reply-button:before {
+  content: 'Reply';
+}
+.js-reply-button .gl-icon.gl-icon.gl-icon.gl-icon.gl-icon {
+  color: black;
+}
+
 /* Un-approved merge requests have the wrong icon */
 .merge-requests-holder .merge-request [title="Required approvals (0 given)"] [data-testid="approval-icon"] {
   opacity: 0.2;
