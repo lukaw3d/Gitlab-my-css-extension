@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Gitlab mycss",
+  "version": "0.1",
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gitlab.com/*"
+      ],
+      "css": ["css.css"]
+    }
+  ]
+}

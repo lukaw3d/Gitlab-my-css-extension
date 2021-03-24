@@ -1,0 +1,4 @@
+/* Un-approved merge requests have the wrong icon */
+.merge-requests-holder .merge-request [title="Required approvals (0 given)"] [data-testid="approval-icon"] {
+  opacity: 0.2;
+}
