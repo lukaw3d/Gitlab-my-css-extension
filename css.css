@@ -2,6 +2,10 @@
 .js-mr-approvals [data-testid="approval-icon"] {
   opacity: 0.2;
 }
+.js-mr-approvals [data-qa-selector="approvals_summary_content"] > span {
+  background: lightgreen;
+  padding: 4px;
+}
 /* Un-approved merge requests have the wrong icon */
 .merge-requests-holder .merge-request [title="Required approvals (0 given)"] [data-testid="approval-icon"] {
   opacity: 0.2;
