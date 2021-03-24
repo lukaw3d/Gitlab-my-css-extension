@@ -6,6 +6,22 @@
   background: lightgreen;
   padding: 4px;
 }
+
+/* Branch name */
+.js-source-branch {
+  background: aliceblue;
+  padding: 4px;
+}
+.js-target-branch { /* target is not main */
+  background: orange;
+  padding: 4px;
+  vertical-align: text-bottom;
+}
+.js-target-branch[href$="/main"],
+.js-target-branch[href$="/master"] {
+  background: transparent;
+}
+
 /* Un-approved merge requests have the wrong icon */
 .merge-requests-holder .merge-request [title="Required approvals (0 given)"] [data-testid="approval-icon"] {
   opacity: 0.2;
