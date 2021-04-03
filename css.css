@@ -3,17 +3,17 @@
   opacity: 0.2;
 }
 .js-mr-approvals [data-qa-selector="approvals_summary_content"] > span {
-  background: lightgreen;
+  background: hsla(120, 73%, 50%, 0.5);
   padding: 4px;
 }
 
 /* Branch name */
 .js-source-branch {
-  background: aliceblue;
+  background: hsla(208, 100%, 85%, 0.3);
   padding: 4px;
 }
 .js-target-branch { /* target is not main */
-  background: orange;
+  background: hsla(39, 100%, 50%, 0.8);
   padding: 4px;
   vertical-align: text-bottom;
 }
@@ -24,10 +24,7 @@
 
 /* Reply to general comment */
 .js-reply-button:before {
-  content: 'Reply';
-}
-.js-reply-button .gl-icon.gl-icon.gl-icon.gl-icon.gl-icon {
-  color: black;
+  content: 'Reply \00a0';
 }
 
 /* Un-approved merge requests have the wrong icon */
