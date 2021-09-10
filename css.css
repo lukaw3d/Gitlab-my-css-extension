@@ -1,4 +1,4 @@
-/* Review status has the wrong icon */
+/* Review status has the wrong icon in MR details */
 .js-mr-approvals [data-testid="approval-icon"] {
   opacity: 0.2;
 }
@@ -27,7 +27,7 @@
   content: 'Reply \00a0';
 }
 
-/* Un-approved merge requests have the wrong icon */
-.merge-requests-holder .merge-request [title="Required approvals (0 given)"] [data-testid="approval-icon"] {
+/* Un-approved merge requests have the wrong icon in MR list */
+.mr-list .merge-request [title="Required approvals (0 given)"] [data-testid="approval-icon"] {
   opacity: 0.2;
 }
